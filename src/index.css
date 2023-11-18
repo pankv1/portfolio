@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  @apply scroll-smooth
+}
+
+body{
+  @apply pt-28 bg-slate-200
+}
+
+h2{
+  @apply text-4xl font-semibold
+}
+
+h3{
+  @apply text-3xl font-semibold
+}
+
+.container{
+  @apply max-w-4xl m-auto px-4
+
+}
+
+.link{
+ @apply flex items-center justify-center px-3 py-3 hover:text-gray-600 active:text-gray-900 font-semibold
+}
+
+.social{
+  @apply hover:text-gray-600 active:text-gray-950 items-center gap-2
+}
+
+.projectimg{
+  @apply w-full h-36 sm:h-72 object-cover object-top rounded-lg hover:scale-110 transition-all
+}
